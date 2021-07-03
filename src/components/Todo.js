@@ -5,6 +5,7 @@ import Modal from './Modal';
 const Todo = (props) => {
 
     const [modalIsOpen, setModalIsOpen] = useState(false);
+    const [todoIsOpen, setTodoIsOpen] = useState(true);
 
     const deleteHandler = () =>{
         setModalIsOpen(true);
