@@ -7,7 +7,7 @@ import MainNavigation from './components/layout/MainNavigation';
 
 const App = () => {
   return <div>
-    <MainNavigation/>
+    <MainNavigation />
     <Switch>
       <Route path='/' exact>
         <AllMeetupsPage />

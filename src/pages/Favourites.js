@@ -1,4 +1,4 @@
-const FavouritesPage = () =>{
+const FavouritesPage = () => {
     return <div>Favourites</div>
 }
 
